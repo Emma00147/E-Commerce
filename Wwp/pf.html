@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <div class="profile-container">
+    <div class="navbar profile-nav">
+    <ul class="navlinks">
+      <li class="profile-logo"><a href="">Logo Name</a></li>
+      <li><a href="index.html">Shop</a></li>
+      <li><a href="">orders</a></li> 
+    </ul>
+    <h1 onclick="openProfileIcon()">Profile icon</h1>
+    <div class="Profile-settings" id="ProfileSettings">
+    
+       <div class="pf-icon">
+         <h6><img src="">odehemmy4190@gmail.com</h6>
+       </div>
+        <hr class="pf-hr">
+        <ul class="profile-list">
+          <li><a href="">Profile</a></li>
+          <li><a href="">Settings</a></li>
+          <li><a href="">Log out</a></li>
+        </ul>
+    </div>
+   </div>
+   <section class="order-sec">
+    <h1>Profile</h1>
+   
+       <div class="profile-dash">
+          <div class="profile-input">
+            <h3>Name</h3>
+            <p onclick="openInput()">Pen icon</p>
+          </div>
+          <div class="profile-input emai-input">
+           <h3>e-mail</h3>
+            <p>odehemmy4190@gmail.com</p>
+          </div>
+       </div>
+       <div class="profile-dash">
+          <div class="profile-input">
+            <h3>Addresses</h3>
+            <p onclick="openAddress()">Add icon</p>
+          </div>
+          <div class="profile-input address-dash">
+            <p>No address added yet</p>
+          </div>
+       </div>
+
+
+  
+    
+  </section>
+  <div class="input-container" id="inputContainer">
+    <div class="input-form-container">
+      <div class="dex">
+        <h2>Edict profile</h2>
+        <p onclick="closeDash()" id="closeDash">x</p>
+      </div>
+       <div class="my-input">
+         <input type="text" name="fname" placeholder="First Name">
+         <input type="text" name="lname" placeholder="Last Name">
+       </div>
+       <div class="old-input">
+         <label>Email</label>
+         <p>odehemmy4190@gmail.com</p>
+       </div>
+       <div class="email-dex">
+         <p>Email used for login can't be changed</p>
+       </div>
+       <div class="dash-btn">
+         <button class="cancel-btn">Cancel</button>
+         <button class="save-btn">Save</button>
+       </div>
+    </div>
+  </div>
+
+
+
+<div class="ad-container" id="adContainer">    
+ <form class="form input-form-container">
+      <div class="dex">
+        <h2 >Address</h2>
+        <p onclick="closeAddress()" id="closeAddress">x</p>
+      </div>
+    
+      <label>
+       <select class="input">
+         <option>a</option>
+         <option>a</option>
+         <option>a</option>
+         <option>a</option>
+         <option>a</option>
+         <option>a</option>
+         <option>a</option>
+       </select>
+        <span>Choose Country</span>
+      </label> 
+      <div class="flex">
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>Firstname</span>
+        </label>
+
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>Lastname</span>
+        </label>
+      </div>  
+            
+  
+        
+    <label>
+        <input class="input" type="password" placeholder="" required="">
+        <span>Address</span>
+    </label>
+    <label>
+        <input class="input" type="password" placeholder="" required="">
+        <span>Apartment,suite etc (Optional)</span>
+    </label>
+
+
+    <div class="flex">
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>City</span>
+        </label>
+
+        <label>
+            <select class="input">
+              <option>a</option>
+              <option>a</option>
+              <option>a</option>
+              <option>a</option>
+              <option>a</option>
+              <option>a</option>
+            </select>
+            <span>State</span>
+        </label>
+        <label>
+            <input class="input" type="text" placeholder="" required="">
+            <span>Postal Code</span>
+        </label>
+      </div> 
+
+
+      <label>
+        <input class="input" type="password" placeholder="" required="">
+        <span>Phone Number</span>
+    </label> 
+
+      <div class="dash-btn">
+         <button class="cancel-btn">Cancel</button>
+         <button class="save-btn">Save</button>
+      </div>
+
+  </form>
+</div>
+   <hr class="hr">
+  <ul class="order-list">
+      <li><a href="">Refund Policy</a></li>
+      <li><a href="">Privacy Policy</a></li>
+      <li><a href="">Terms of Service</a></li>
+      <li><a href="">Contact Information</a></li>
+  </ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
